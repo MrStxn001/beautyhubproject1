@@ -1,0 +1,131 @@
+h2{
+    color:#000000;
+    font-family: "SF Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0%;
+  }
+  h3{
+    color:#000000;
+    font-family: "SF Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 3%;
+  }
+  h4{
+    color:#000000;
+    font-family: "SF Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 2%;
+  }
+  h5{
+    color:#000000;
+    font-family: "SF Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5%;
+  }
+  h6{
+    color:#000000;
+    font-family: "SF Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 2%;
+  }
+  p{
+    padding: 0%;
+    margin: 1%;
+  }
+  .container{
+    max-width: 380px;
+    height: 772px;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    background-color:#ffffff;
+    margin-top: 5%;
+    border-radius: 36px;
+    border-style:solid;
+    border-color: rgb(80, 80, 80);
+    overflow: hidden;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  position: relative; /* Add this line */
+  }
+  .header{
+    border-top-left-radius: 36px;
+    border-top-right-radius: 36px;
+  }
+  .card{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 0%;
+    margin-top: 0%;
+  }
+  .container2{
+    background-color: #FCF3EC;
+    max-width: 380px;
+    height: 402px;
+    border-radius: 36px;
+  }
+  .buttons {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-left: 5%;
+    margin-right: 6%;
+  }
+  
+  .buttons button.call {
+    padding: 3%;
+    padding-left: 9%;
+    padding-right: 9%;
+    border-radius: 37px;
+    border-style: solid;
+    border-color: #73B121;
+    background-color: #73B121;
+    border-width: 5px;
+  }
+  
+  .buttons button.map {
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 37px;
+    border-style: solid;
+    border-color: #73B121;
+    background-color:#FCF3EC;
+    border-width: 5px;
+  }
+  .buttons button.website {
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 37px;
+    border-style: solid;
+    border-color: #73B121;
+    background-color:#FCF3EC;
+    border-width: 5px;
+  }
+  .container3{
+    background-color: #FCF3EC;
+    max-width: 380px;
+    height: 3.5px;
+    margin: 1% 0% 0% 0%;
+    padding-bottom: 0.40%;
+  }
+  .footer {
+    align-self: flex-end;
+    position: relative;
+    bottom: 0;
+    margin-top: 0.50%;
+  }
