@@ -96,8 +96,14 @@ h2{
     border-width: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.50);
   }
-  
-  .buttons button.map {
+  .buttons button.call.clicked {
+    background-color: #343233; 
+    color: #73B121;
+    border-color: #343233;
+    background-color: #343233;
+    box-shadow:none
+  }
+  .buttons button.mapButton {
     padding: 3%;
     padding-left: 5%;
     padding-right: 5%;
@@ -107,7 +113,10 @@ h2{
     background-color:#FCF3EC;
     border-width: 5px;
   }
-  .buttons button.website {
+  .buttons button.mapButton.clicked {
+    background-color: #73B121; 
+  }
+  .buttons button.websiteButton {
     padding: 3%;
     padding-left: 5%;
     padding-right: 5%;
@@ -116,6 +125,9 @@ h2{
     border-color: #73B121;
     background-color:#FCF3EC;
     border-width: 5px;
+  }
+  .buttons button.websiteButton.clicked {
+    background-color: #73B121; 
   }
   .container3{
     background-color: #FCF3EC;
