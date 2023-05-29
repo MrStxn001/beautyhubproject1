@@ -136,7 +136,11 @@ h2{
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    animation: spin 2s linear infinite;
+    /* animation: spin 2s linear infinite; */
+    animation-name: spin;
+animation-duration: 2s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
     display: none; /* Initially hide the loader */
     position: absolute;
     top: 55%;
@@ -144,7 +148,6 @@ h2{
     transform: translate(-50%, -50%);
     z-index: 9999;
   }
-  
   @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
